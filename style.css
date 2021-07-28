@@ -60,3 +60,33 @@ h1 {
 .second-section .btn {
   margin-top: 80px;
 }
+
+/*third Section*/
+.reciepy-header {
+  border: solid 1px tomato;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+.reciepy-header h2 {
+  font-size: 30px;
+  color: #575757;
+}
+.reciepy-header p {
+  justify-content: center;
+  padding: 0 10%;
+  padding-bottom: 2%;
+}
+.reciepy-blog {
+  width: 90%;
+  margin: auto 3% auto 5%;
+  display: flex;
+  border: tomato solid 1px;
+}
+.each-blog {
+  width: 32%;
+  margin: 2% 2%;
+}
+.each-blog img {
+  width: 100%;
+}
