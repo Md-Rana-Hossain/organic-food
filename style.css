@@ -52,7 +52,7 @@ header {
 }
 a {
   text-decoration: none;
-  color: purple;
+  color: rgb(0, 0, 0);
 }
 
 /*Top Section*/
@@ -204,4 +204,7 @@ footer {
 }
 .footer-div {
   width: 50%;
+}
+.main-tagline {
+  font-size: 22px;
 }
