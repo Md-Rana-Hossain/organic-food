@@ -1,8 +1,23 @@
-body{
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
 }
-.highlights{
-    color: rgb(250, 99, 44);
+.highlights {
+  color: rgb(250, 99, 44);
+}
+.top-section h1 {
+  font-size: 40px;
+  margin-top: 20px;
+  padding: 0;
+}
+.flexible-container {
+  display: flex;
+}
+.half-part {
+  width: 50%;
+  padding-left: 2%;
+}
+.half-part img {
+  width: 90%;
 }
