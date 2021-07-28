@@ -1,3 +1,4 @@
+/*Global*/
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -21,6 +22,7 @@ p {
   color: #ffffff;
   border-radius: 50px;
 }
+
 /*Navbar*/
 header {
   background-image: linear-gradient(#ffa4a4, #ffdddd);
@@ -50,8 +52,13 @@ header {
 }
 a {
   text-decoration: none;
+  color: purple;
 }
+
 /*Top Section*/
+.top-section {
+  margin-top: 20px;
+}
 .top-section .btn {
   margin-top: 50px;
 }
@@ -62,7 +69,7 @@ h1 {
   color: #575757;
 }
 .second-section {
-  background-image: url(images/shapes/7.png);
+  background-image: url(images/shapes/9.png);
 }
 .flexible-container {
   width: 90%;
@@ -113,6 +120,8 @@ h1 {
   width: 90%;
   margin: auto 3% auto 5%;
   display: flex;
+}
+.reciepy-bg {
   background-image: url(images/food/Project\ Cover4.png);
 }
 .each-blog {
@@ -120,6 +129,7 @@ h1 {
   margin: 2% 2%;
   text-align: center;
   background-color: white;
+  border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .each-blog img {
@@ -128,6 +138,11 @@ h1 {
 }
 .each-blog h3 {
   font-size: 22px;
+}
+.each-blog p {
+  padding-right: 5%;
+  padding-left: 5%;
+  text-align: justify;
 }
 
 /*Followers Info*/
@@ -145,11 +160,13 @@ h1 {
 
 /*Newletter Section For Bonus Marks*/
 .newsletter {
+  background-image: linear-gradient(#ff8a7577, #ff634777);
+}
+.newsletter-container {
   width: 90%;
   margin-right: 5%;
   margin-left: 5%;
   display: flex;
-  background-color: rgba(255, 99, 71, 0.466);
 }
 
 .newsletter h2 {
@@ -178,7 +195,7 @@ h1 {
 footer {
   display: flex;
   justify-content: center;
-  width: 90%;
+
   margin: auto;
   height: 200px;
   align-items: center;
