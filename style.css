@@ -17,10 +17,41 @@ p {
 .link-btn {
   text-decoration: none;
   background-image: linear-gradient(#fba24f, #ff1e1e);
-  border-radius: 50px;
   padding: 15px 30px;
   color: #ffffff;
+  border-radius: 50px;
 }
+/*Navbar*/
+header {
+  background-image: linear-gradient(#ffa4a4, #ffdddd);
+}
+.navbar {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo {
+  width: 25%;
+}
+.nav-logo img {
+  width: 100%;
+}
+.navigation-links {
+  width: 60%;
+  position: right;
+}
+
+.navigation-links li {
+  text-decoration: none;
+  display: inline-block;
+  padding-left: 7%;
+}
+a {
+  text-decoration: none;
+}
+/*Top Section*/
 .top-section .btn {
   margin-top: 50px;
 }
@@ -40,10 +71,11 @@ h1 {
 }
 .half-part {
   width: 50%;
-  border: tomato 1px solid;
 }
 .half-part img {
   width: 90%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .top-section .part2 {
   text-align: right;
@@ -62,8 +94,8 @@ h1 {
 }
 
 /*third Section*/
+
 .reciepy-header {
-  border: solid 1px tomato;
   text-align: center;
   width: 80%;
   margin: auto;
@@ -81,12 +113,78 @@ h1 {
   width: 90%;
   margin: auto 3% auto 5%;
   display: flex;
-  border: tomato solid 1px;
+  background-image: url(images/food/Project\ Cover4.png);
 }
 .each-blog {
   width: 32%;
   margin: 2% 2%;
+  text-align: center;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .each-blog img {
-  width: 100%;
+  width: 95%;
+  padding: 2%;
+}
+.each-blog h3 {
+  font-size: 22px;
+}
+
+/*Followers Info*/
+.followers-info {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+}
+.each-info {
+  width: 32%;
+  margin: 2% 2%;
+  text-align: center;
+}
+
+/*Newletter Section For Bonus Marks*/
+.newsletter {
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  display: flex;
+  background-color: rgba(255, 99, 71, 0.466);
+}
+
+.newsletter h2 {
+  padding: 2% 5%;
+  color: #363636;
+}
+.newsletter .title-part {
+  text-align: center;
+  justify-content: center;
+}
+.newsletter .email-part {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.newsletter .email-box {
+  padding: 2%;
+  margin-right: 2%;
+  margin-top: 7%;
+  font-size: 20px;
+}
+.newsletter .email-btn {
+  margin-top: 9%;
+}
+/*Footer*/
+footer {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  height: 200px;
+  align-items: center;
+  text-align: center;
+  background-color: #272727;
+}
+.footer-div {
+  width: 50%;
 }
